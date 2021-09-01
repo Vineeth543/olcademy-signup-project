@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Olcademy Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyC1jF32bj4c3cX7sFg1YFkSgSGrreQvn3Y",
+        authDomain: "olcademy-signup-project.firebaseapp.com",
+        databaseURL:
+          "https://olcademy-signup-project-default-rtdb.firebaseio.com",
+        projectId: "olcademy-signup-project",
+        storageBucket: "olcademy-signup-project.appspot.com",
+        messagingSenderId: "435485344762",
+        appId: "1:435485344762:web:055d2a0c86b0b96534da43",
+        measurementId: "G-PWY611PW7T",
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="./script.js"></script>
+  </head>
+  <body onload="getDetails()">
+    <main class="app">
+      <nav class="navBar">
+        <img src="./assets/logo.png" />
+      </nav>
+      <section class="heroSection">
+        <div class="form-head">
+          <h2 class="register-head" id ="userTitle">Welcome Vineeth</h2>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
